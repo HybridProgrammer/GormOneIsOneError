@@ -1,5 +1,5 @@
 # How to run
-grails test-app -integration -Dgrails.env=test
+./grailsw test-app -integration -Dgrails.env=test
 
 Modify grails-app/services/oneisone/ExampleService.groovy
 See comment and toggle lines of code
@@ -15,7 +15,7 @@ or
         def user = User.get(me.id)
         
 Re run test:
-grails test-app -integration -Dgrails.env=test
+./grailsw test-app -integration -Dgrails.env=test
 
 Repeat. You'll see inconsistant results in your test. The question: why?
 
