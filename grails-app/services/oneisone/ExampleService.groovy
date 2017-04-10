@@ -1,20 +1,21 @@
 package oneisone
 
+import grails.gorm.DetachedCriteria
 import grails.transaction.Transactional
 
 @Transactional
 class ExampleService {
 
-    def getMyOrMyTeamsData(User me) {
+    DetachedCriteria<UserData> getMyOrMyTeamsData(User me) {
         // To fix the test Toggle these two lines
-        def user = me
-//        def user = User.get(me.id)
+//        User user = me
+        User user = User.get(me.id)
 
-        def query = UserData.where {
+        DetachedCriteria<UserData> query = UserData.where {
             (
                     teams { id in me.getAuthorities().id } && status { isOpen == true }
             ) || (
-                    owner == user && status { isOpen == true }
+                    owner == me && status { isOpen == true }
             )
         }
 

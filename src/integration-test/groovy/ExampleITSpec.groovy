@@ -1,3 +1,4 @@
+import grails.gorm.DetachedCriteria
 import grails.test.mixin.integration.Integration
 import grails.transaction.Rollback
 import oneisone.ExampleService
@@ -91,7 +92,7 @@ class ExampleITSpec extends Specification {
         def me = User.first()
 
         when:
-        def query = exampleService.getMyOrMyTeamsData(me)
+        DetachedCriteria<UserData> query = exampleService.getMyOrMyTeamsData(me)
 
         then:
         me.getAuthorities().size() == 1
