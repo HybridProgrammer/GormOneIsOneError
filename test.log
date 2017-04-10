@@ -1,0 +1,451 @@
+[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 0/1 projects[22m[0K[28D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D:clean[0K
+
+BUILD SUCCESSFUL
+
+Total time: 1.373 secs
+[0K[m[1A[1D[0K[1;33m| [22;39mResolving Dependencies. Please wait...[m
+
+CONFIGURE SUCCESSFUL
+
+Total time: 1.9 secs
+[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D:compileJava [33mUP-TO-DATE[39m[0K
+[1m> Building 6% > :compileGroovy[22m[0K[30D:compileGroovy[0K
+[1m> Building 6%[22m[0K[13D:buildProperties
+[1m> Building 20% > :processResources[22m[34D:processResources[0K
+[1m> Building 20%[22m[0K[14D:classes[0K
+:compileTestJava [33mUP-TO-DATE[39m
+[1m> Building 40% > :compileTestGroovy > Resolving dependencies ':testCompileClasspath'[22m[84D[1m> Building 40% > :compileTestGroovy[22m[0K[35D:compileTestGroovy[0K
+[1m> Building 40%[22m[0K[14D:processTestResources [33mUP-TO-DATE[39m
+:testClasses
+:compileIntegrationTestJava [33mUP-TO-DATE[39m
+[1m> Building 66% > :compileIntegrationTestGroovy[22m[46D:compileIntegrationTestGroovy[0K
+[1m> Building 66%[22m[0K[14D:processIntegrationTestResources [33mUP-TO-DATE[39m
+:integrationTestClasses
+[1m> Building 86% > :integrationTest[22m[33D[1m> Building 86% > :integrationTest > 0 tests completed[22m[53D[1m> Building 86% > :integrationTest > 1 test completed[22m[0K[52D[1m> Building 86% > :integrationTest > 2 tests completed[22m[53D:integrationTest[0K
+
+[1m> Building 86% > :integrationTest > 2 tests completed[22m[53DExampleITSpec > sometimes fails [31mFAILED[39m[0K
+    org.spockframework.runtime.SpockComparisonFailure at ExampleITSpec.groovy:98
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D[0K
+3 tests completed, 1 failed
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D:integrationTest [33mFAILED[39m[0K
+:mergeTestReports
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':integrationTest'.
+[33m> [39mThere were failing tests. See the results at: file:///Volumes/Transcend/IdeaProjects/OneIsOne/build/test-results/integrationTest/
+
+* Try:
+Run with [1m--stacktrace[22m option to get the stack trace. Run with [1m--info[22m or [1m--debug[22m option to get more log output.
+
+[31mBUILD FAILED[39m
+
+Total time: 26.258 secs
+[0K[1;31m| Tests FAILED [22;39mTest execution failed[m
+[m[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D:clean[0K
+
+BUILD SUCCESSFUL
+
+Total time: 1.284 secs
+[0K[m[1A[1D[0K[1;33m| [22;39mResolving Dependencies. Please wait...[m
+
+CONFIGURE SUCCESSFUL
+
+Total time: 1.721 secs
+[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D:compileJava [33mUP-TO-DATE[39m[0K
+[1m> Building 6% > :compileGroovy[22m[0K[30D:compileGroovy[0K
+[1m> Building 6%[22m[0K[13D:buildProperties
+[1m> Building 20% > :processResources[22m[34D:processResources[0K
+:classes
+:compileTestJava [33mUP-TO-DATE[39m
+[1m> Building 40% > :compileTestGroovy > Resolving dependencies ':testCompileClasspath'[22m[84D[1m> Building 40% > :compileTestGroovy[22m[0K[35D:compileTestGroovy[0K
+[1m> Building 40%[22m[0K[14D:processTestResources [33mUP-TO-DATE[39m
+:testClasses
+:compileIntegrationTestJava [33mUP-TO-DATE[39m
+[1m> Building 66% > :compileIntegrationTestGroovy[22m[46D:compileIntegrationTestGroovy[0K
+[1m> Building 66%[22m[0K[14D:processIntegrationTestResources [33mUP-TO-DATE[39m
+:integrationTestClasses
+[1m> Building 86% > :integrationTest > 0 tests completed[22m[53D[1m> Building 86% > :integrationTest > 1 test completed[22m[0K[52D[1m> Building 86% > :integrationTest > 2 tests completed[22m[53D:integrationTest[0K
+
+[1m> Building 86% > :integrationTest > 2 tests completed[22m[53DExampleITSpec > sometimes fails [31mFAILED[39m[0K
+    org.spockframework.runtime.SpockComparisonFailure at ExampleITSpec.groovy:98
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D[0K
+3 tests completed, 1 failed
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D:integrationTest [33mFAILED[39m[0K
+:mergeTestReports
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':integrationTest'.
+[33m> [39mThere were failing tests. See the results at: file:///Volumes/Transcend/IdeaProjects/OneIsOne/build/test-results/integrationTest/
+
+* Try:
+Run with [1m--stacktrace[22m option to get the stack trace. Run with [1m--info[22m or [1m--debug[22m option to get more log output.
+
+[31mBUILD FAILED[39m
+
+Total time: 23.116 secs
+[0K[1;31m| Tests FAILED [22;39mTest execution failed[m
+[m[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D:clean[0K
+
+BUILD SUCCESSFUL
+
+Total time: 1.198 secs
+[0K[m[1A[1D[0K[1;33m| [22;39mResolving Dependencies. Please wait...[m
+
+CONFIGURE SUCCESSFUL
+
+Total time: 1.932 secs
+[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 0/1 projects[22m[0K[28D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D:compileJava [33mUP-TO-DATE[39m[0K
+[1m> Building 6% > :compileGroovy[22m[0K[30D:compileGroovy[0K
+[1m> Building 6%[22m[0K[13D:buildProperties
+[1m> Building 20% > :processResources[22m[34D:processResources[0K
+:classes
+:compileTestJava [33mUP-TO-DATE[39m
+[1m> Building 40% > :compileTestGroovy[22m[35D:compileTestGroovy[0K
+[1m> Building 40%[22m[0K[14D:processTestResources [33mUP-TO-DATE[39m
+:testClasses
+:compileIntegrationTestJava [33mUP-TO-DATE[39m
+[1m> Building 66% > :compileIntegrationTestGroovy[22m[46D:compileIntegrationTestGroovy[0K
+[1m> Building 66%[22m[0K[14D:processIntegrationTestResources [33mUP-TO-DATE[39m
+:integrationTestClasses
+[1m> Building 86% > :integrationTest[22m[33D[1m> Building 86% > :integrationTest > 0 tests completed[22m[53D[1m> Building 86% > :integrationTest > 1 test completed[22m[0K[52D[1m> Building 86% > :integrationTest > 2 tests completed[22m[53D:integrationTest[0K
+
+[1m> Building 86% > :integrationTest > 2 tests completed[22m[53DExampleITSpec > sometimes fails [31mFAILED[39m[0K
+    org.spockframework.runtime.SpockComparisonFailure at ExampleITSpec.groovy:98
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D[0K
+3 tests completed, 1 failed
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D:integrationTest [33mFAILED[39m[0K
+:mergeTestReports
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':integrationTest'.
+[33m> [39mThere were failing tests. See the results at: file:///Volumes/Transcend/IdeaProjects/OneIsOne/build/test-results/integrationTest/
+
+* Try:
+Run with [1m--stacktrace[22m option to get the stack trace. Run with [1m--info[22m or [1m--debug[22m option to get more log output.
+
+[31mBUILD FAILED[39m
+
+Total time: 24.339 secs
+[0K[1;31m| Tests FAILED [22;39mTest execution failed[m
+[m[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D:clean[0K
+
+BUILD SUCCESSFUL
+
+Total time: 1.285 secs
+[0K[m[1A[1D[0K[1;33m| [22;39mResolving Dependencies. Please wait...[m
+
+CONFIGURE SUCCESSFUL
+
+Total time: 3.121 secs
+[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D[1m> Configuring > 1/1 projects[22m[0K[28D:compileJava [33mUP-TO-DATE[39m[0K
+[1m> Building 6% > :compileGroovy[22m[30D:compileGroovy[0K
+[1m> Building 6%[22m[0K[13D:buildProperties
+[1m> Building 20% > :processResources[22m[34D:processResources[0K
+:classes
+:compileTestJava [33mUP-TO-DATE[39m
+[1m> Building 40% > :compileTestGroovy > Resolving dependencies ':testCompileClasspath'[22m[84D[1m> Building 40% > :compileTestGroovy[22m[0K[35D:compileTestGroovy[0K
+[1m> Building 40%[22m[0K[14D:processTestResources [33mUP-TO-DATE[39m
+:testClasses
+:compileIntegrationTestJava [33mUP-TO-DATE[39m
+[1m> Building 66% > :compileIntegrationTestGroovy[22m[46D:compileIntegrationTestGroovy[0K
+[1m> Building 66%[22m[0K[14D:processIntegrationTestResources [33mUP-TO-DATE[39m
+:integrationTestClasses
+[1m> Building 86% > :integrationTest > 0 tests completed[22m[53D[1m> Building 86% > :integrationTest > 1 test completed[22m[0K[52D[1m> Building 86% > :integrationTest > 2 tests completed[22m[53D:integrationTest[0K
+
+[1m> Building 86% > :integrationTest > 2 tests completed[22m[53DExampleITSpec > sometimes fails [31mFAILED[39m[0K
+    org.spockframework.runtime.SpockComparisonFailure at ExampleITSpec.groovy:98
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D[0K
+3 tests completed, 1 failed
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D:integrationTest [33mFAILED[39m[0K
+:mergeTestReports
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':integrationTest'.
+[33m> [39mThere were failing tests. See the results at: file:///Volumes/Transcend/IdeaProjects/OneIsOne/build/test-results/integrationTest/
+
+* Try:
+Run with [1m--stacktrace[22m option to get the stack trace. Run with [1m--info[22m or [1m--debug[22m option to get more log output.
+
+[31mBUILD FAILED[39m
+
+Total time: 24.54 secs
+[0K[1;31m| Tests FAILED [22;39mTest execution failed[m
+[m[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D:clean[0K
+
+BUILD SUCCESSFUL
+
+Total time: 1.181 secs
+[0K[m[1A[1D[0K[1;33m| [22;39mResolving Dependencies. Please wait...[m
+
+CONFIGURE SUCCESSFUL
+
+Total time: 3.164 secs
+[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 0/1 projects[22m[0K[28D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D[1m> Configuring > 1/1 projects[22m[0K[28D:compileJava [33mUP-TO-DATE[39m[0K
+[1m> Building 6% > :compileGroovy > Resolving dependencies ':compileClasspath'[22m[75D[1m> Building 6% > :compileGroovy[22m[0K[30D:compileGroovy[0K
+[1m> Building 6%[22m[0K[13D:buildProperties
+[1m> Building 20% > :processResources[22m[34D:processResources[0K
+[1m> Building 20%[22m[0K[14D:classes[0K
+:compileTestJava [33mUP-TO-DATE[39m
+[1m> Building 40% > :compileTestGroovy > Resolving dependencies ':testCompileClasspath'[22m[84D[1m> Building 40% > :compileTestGroovy[22m[0K[35D:compileTestGroovy[0K
+[1m> Building 40%[22m[0K[14D:processTestResources [33mUP-TO-DATE[39m
+:testClasses
+:compileIntegrationTestJava [33mUP-TO-DATE[39m
+[1m> Building 66% > :compileIntegrationTestGroovy[22m[46D:compileIntegrationTestGroovy[0K
+[1m> Building 66%[22m[0K[14D:processIntegrationTestResources [33mUP-TO-DATE[39m
+:integrationTestClasses
+[1m> Building 86% > :integrationTest > 0 tests completed[22m[53D[1m> Building 86% > :integrationTest > 1 test completed[22m[0K[52D[1m> Building 86% > :integrationTest > 2 tests completed[22m[53D:integrationTest[0K
+
+[1m> Building 86% > :integrationTest > 2 tests completed[22m[53DExampleITSpec > sometimes fails [31mFAILED[39m[0K
+    org.spockframework.runtime.SpockComparisonFailure at ExampleITSpec.groovy:98
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D[0K
+3 tests completed, 1 failed
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D:integrationTest [33mFAILED[39m[0K
+:mergeTestReports
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':integrationTest'.
+[33m> [39mThere were failing tests. See the results at: file:///Volumes/Transcend/IdeaProjects/OneIsOne/build/test-results/integrationTest/
+
+* Try:
+Run with [1m--stacktrace[22m option to get the stack trace. Run with [1m--info[22m or [1m--debug[22m option to get more log output.
+
+[31mBUILD FAILED[39m
+
+Total time: 54.225 secs
+[0K[1;31m| Tests FAILED [22;39mTest execution failed[m
+[m[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D[1m> Configuring > 1/1 projects[22m[0K[28D:clean[0K
+
+BUILD SUCCESSFUL
+
+Total time: 1.647 secs
+[0K[m[1A[1D[0K[1;33m| [22;39mResolving Dependencies. Please wait...[m
+
+CONFIGURE SUCCESSFUL
+
+Total time: 1.894 secs
+[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects[22m[0K[28D:compileJava [33mUP-TO-DATE[39m[0K
+[1m> Building 6% > :compileGroovy > Resolving dependencies ':compileClasspath'[22m[75D[1m> Building 6% > :compileGroovy[22m[0K[30D:compileGroovy[0K
+[1m> Building 6%[22m[0K[13D:buildProperties
+[1m> Building 20% > :processResources[22m[34D:processResources[0K
+:classes
+:compileTestJava [33mUP-TO-DATE[39m
+[1m> Building 40% > :compileTestGroovy[22m[35D:compileTestGroovy[0K
+[1m> Building 40%[22m[0K[14D:processTestResources [33mUP-TO-DATE[39m
+:testClasses
+:compileIntegrationTestJava [33mUP-TO-DATE[39m
+[1m> Building 66% > :compileIntegrationTestGroovy[22m[46D:compileIntegrationTestGroovy[0K
+[1m> Building 66%[22m[0K[14D:processIntegrationTestResources [33mUP-TO-DATE[39m
+:integrationTestClasses
+[1m> Building 86% > :integrationTest > 0 tests completed[22m[53D[1m> Building 86% > :integrationTest > 1 test completed[22m[0K[52D[1m> Building 86% > :integrationTest > 2 tests completed[22m[53D:integrationTest[0K
+
+[1m> Building 86% > :integrationTest > 2 tests completed[22m[53DExampleITSpec > sometimes fails [31mFAILED[39m[0K
+    org.spockframework.runtime.SpockComparisonFailure at ExampleITSpec.groovy:98
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D[0K
+3 tests completed, 1 failed
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D:integrationTest [33mFAILED[39m[0K
+:mergeTestReports
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':integrationTest'.
+[33m> [39mThere were failing tests. See the results at: file:///Volumes/Transcend/IdeaProjects/OneIsOne/build/test-results/integrationTest/
+
+* Try:
+Run with [1m--stacktrace[22m option to get the stack trace. Run with [1m--info[22m or [1m--debug[22m option to get more log output.
+
+[31mBUILD FAILED[39m
+
+Total time: 25.593 secs
+[0K[1;31m| Tests FAILED [22;39mTest execution failed[m
+[m[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D:clean[0K
+
+BUILD SUCCESSFUL
+
+Total time: 1.304 secs
+[0K[m[1A[1D[0K[1;33m| [22;39mResolving Dependencies. Please wait...[m
+
+CONFIGURE SUCCESSFUL
+
+Total time: 1.808 secs
+[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D:compileJava [33mUP-TO-DATE[39m[0K
+[1m> Building 6% > :compileGroovy[22m[0K[30D:compileGroovy[0K
+[1m> Building 6%[22m[0K[13D:buildProperties
+[1m> Building 20% > :processResources[22m[34D:processResources[0K
+:classes
+:compileTestJava [33mUP-TO-DATE[39m
+[1m> Building 40% > :compileTestGroovy[22m[35D:compileTestGroovy[0K
+[1m> Building 40%[22m[0K[14D:processTestResources [33mUP-TO-DATE[39m
+:testClasses
+:compileIntegrationTestJava [33mUP-TO-DATE[39m
+[1m> Building 66% > :compileIntegrationTestGroovy[22m[46D:compileIntegrationTestGroovy[0K
+[1m> Building 66%[22m[0K[14D:processIntegrationTestResources [33mUP-TO-DATE[39m
+:integrationTestClasses
+[1m> Building 86% > :integrationTest > 0 tests completed[22m[53D[1m> Building 86% > :integrationTest > 1 test completed[22m[0K[52D[1m> Building 86% > :integrationTest > 2 tests completed[22m[53D:integrationTest[0K
+
+[1m> Building 86% > :integrationTest > 2 tests completed[22m[53DExampleITSpec > sometimes fails [31mFAILED[39m[0K
+    org.spockframework.runtime.SpockComparisonFailure at ExampleITSpec.groovy:98
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D[0K
+3 tests completed, 1 failed
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D:integrationTest [33mFAILED[39m[0K
+:mergeTestReports
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':integrationTest'.
+[33m> [39mThere were failing tests. See the results at: file:///Volumes/Transcend/IdeaProjects/OneIsOne/build/test-results/integrationTest/
+
+* Try:
+Run with [1m--stacktrace[22m option to get the stack trace. Run with [1m--info[22m or [1m--debug[22m option to get more log output.
+
+[31mBUILD FAILED[39m
+
+Total time: 23.835 secs
+[0K[1;31m| Tests FAILED [22;39mTest execution failed[m
+[m[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects[22m[0K[28D:clean[0K
+
+BUILD SUCCESSFUL
+
+Total time: 1.204 secs
+[0K[m[1A[1D[0K[1;33m| [22;39mResolving Dependencies. Please wait...[m
+
+CONFIGURE SUCCESSFUL
+
+Total time: 1.713 secs
+[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects[22m[0K[28D:compileJava [33mUP-TO-DATE[39m[0K
+[1m> Building 6% > :compileGroovy[22m[30D:compileGroovy[0K
+[1m> Building 6%[22m[0K[13D:buildProperties
+[1m> Building 20% > :processResources[22m[34D:processResources[0K
+:classes
+:compileTestJava [33mUP-TO-DATE[39m
+[1m> Building 40% > :compileTestGroovy[22m[35D:compileTestGroovy[0K
+[1m> Building 40%[22m[0K[14D:processTestResources [33mUP-TO-DATE[39m
+:testClasses
+:compileIntegrationTestJava [33mUP-TO-DATE[39m
+[1m> Building 66% > :compileIntegrationTestGroovy[22m[46D:compileIntegrationTestGroovy[0K
+[1m> Building 66%[22m[0K[14D:processIntegrationTestResources [33mUP-TO-DATE[39m
+:integrationTestClasses
+[1m> Building 86% > :integrationTest[22m[33D[1m> Building 86% > :integrationTest > 0 tests completed[22m[53D[1m> Building 86% > :integrationTest > 1 test completed[22m[0K[52D[1m> Building 86% > :integrationTest > 2 tests completed[22m[53D:integrationTest[0K
+
+[1m> Building 86% > :integrationTest > 2 tests completed[22m[53DExampleITSpec > sometimes fails [31mFAILED[39m[0K
+    org.spockframework.runtime.SpockComparisonFailure at ExampleITSpec.groovy:98
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D[0K
+3 tests completed, 1 failed
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D:integrationTest [33mFAILED[39m[0K
+:mergeTestReports
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':integrationTest'.
+[33m> [39mThere were failing tests. See the results at: file:///Volumes/Transcend/IdeaProjects/OneIsOne/build/test-results/integrationTest/
+
+* Try:
+Run with [1m--stacktrace[22m option to get the stack trace. Run with [1m--info[22m or [1m--debug[22m option to get more log output.
+
+[31mBUILD FAILED[39m
+
+Total time: 27.454 secs
+[0K[1;31m| Tests FAILED [22;39mTest execution failed[m
+[m[1m> Connecting to Daemon[22m[22D[0K[1m> Loading[22m[9D[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D[1m> Configuring > 1/1 projects[22m[0K[28D:clean[0K
+
+BUILD SUCCESSFUL
+
+Total time: 1.849 secs
+[0K[m[1A[1D[0K[1;33m| [22;39mResolving Dependencies. Please wait...[m
+
+CONFIGURE SUCCESSFUL
+
+Total time: 1.627 secs
+[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D:compileJava [33mUP-TO-DATE[39m[0K
+[1m> Building 6% > :compileGroovy > Resolving dependencies ':compileClasspath'[22m[75D[1m> Building 6% > :compileGroovy[22m[0K[30D:compileGroovy[0K
+[1m> Building 6%[22m[0K[13D:buildProperties
+[1m> Building 20% > :processResources[22m[34D:processResources[0K
+:classes
+:compileTestJava [33mUP-TO-DATE[39m
+[1m> Building 40% > :compileTestGroovy[22m[35D:compileTestGroovy[0K
+[1m> Building 40%[22m[0K[14D:processTestResources [33mUP-TO-DATE[39m
+:testClasses
+:compileIntegrationTestJava [33mUP-TO-DATE[39m
+[1m> Building 66% > :compileIntegrationTestGroovy[22m[46D:compileIntegrationTestGroovy[0K
+[1m> Building 66%[22m[0K[14D:processIntegrationTestResources [33mUP-TO-DATE[39m
+:integrationTestClasses
+[1m> Building 86% > :integrationTest > 0 tests completed[22m[53D[1m> Building 86% > :integrationTest > 1 test completed[22m[0K[52D[1m> Building 86% > :integrationTest > 2 tests completed[22m[53D:integrationTest[0K
+
+[1m> Building 86% > :integrationTest > 2 tests completed[22m[53DExampleITSpec > sometimes fails [31mFAILED[39m[0K
+    org.spockframework.runtime.SpockComparisonFailure at ExampleITSpec.groovy:98
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D[0K
+3 tests completed, 1 failed
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D:integrationTest [33mFAILED[39m[0K
+:mergeTestReports
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':integrationTest'.
+[33m> [39mThere were failing tests. See the results at: file:///Volumes/Transcend/IdeaProjects/OneIsOne/build/test-results/integrationTest/
+
+* Try:
+Run with [1m--stacktrace[22m option to get the stack trace. Run with [1m--info[22m or [1m--debug[22m option to get more log output.
+
+[31mBUILD FAILED[39m
+
+Total time: 28.357 secs
+[0K[1;31m| Tests FAILED [22;39mTest execution failed[m
+[m[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D[1m> Configuring > 1/1 projects > Resolving dependencies ':runtime'[22m[64D:clean[0K
+
+BUILD SUCCESSFUL
+
+Total time: 1.127 secs
+[0K[m[1A[1D[0K[1;33m| [22;39mResolving Dependencies. Please wait...[m
+
+CONFIGURE SUCCESSFUL
+
+Total time: 1.684 secs
+[1m> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'[22m[81D[1m> Configuring > 0/1 projects > root project[22m[0K[43D:compileJava [33mUP-TO-DATE[39m[0K
+[1m> Building 6% > :compileGroovy > Resolving dependencies ':compileClasspath'[22m[75D[1m> Building 6% > :compileGroovy[22m[0K[30D:compileGroovy[0K
+[1m> Building 6%[22m[0K[13D:buildProperties
+:processResources
+:classes
+:compileTestJava [33mUP-TO-DATE[39m
+[1m> Building 40% > :compileTestGroovy > Resolving dependencies ':testCompileClasspath'[22m[84D[1m> Building 40% > :compileTestGroovy[22m[0K[35D:compileTestGroovy[0K
+[1m> Building 40%[22m[0K[14D:processTestResources [33mUP-TO-DATE[39m
+:testClasses
+:compileIntegrationTestJava [33mUP-TO-DATE[39m
+[1m> Building 66% > :compileIntegrationTestGroovy[22m[46D:compileIntegrationTestGroovy[0K
+[1m> Building 66%[22m[0K[14D:processIntegrationTestResources [33mUP-TO-DATE[39m
+:integrationTestClasses
+[1m> Building 86% > :integrationTest > 0 tests completed[22m[53D[1m> Building 86% > :integrationTest > 1 test completed[22m[0K[52D[1m> Building 86% > :integrationTest > 2 tests completed[22m[53D:integrationTest[0K
+
+[1m> Building 86% > :integrationTest > 2 tests completed[22m[53DExampleITSpec > sometimes fails [31mFAILED[39m[0K
+    org.spockframework.runtime.SpockComparisonFailure at ExampleITSpec.groovy:98
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D[0K
+3 tests completed, 1 failed
+[1m> Building 86% > :integrationTest > 3 tests completed, 1 failed[22m[63D:integrationTest [33mFAILED[39m[0K
+:mergeTestReports
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':integrationTest'.
+[33m> [39mThere were failing tests. See the results at: file:///Volumes/Transcend/IdeaProjects/OneIsOne/build/test-results/integrationTest/
+
+* Try:
+Run with [1m--stacktrace[22m option to get the stack trace. Run with [1m--info[22m or [1m--debug[22m option to get more log output.
+
+[31mBUILD FAILED[39m
+
+Total time: 23.502 secs
+[0K[1;31m| Tests FAILED [22;39mTest execution failed[m
+[m
