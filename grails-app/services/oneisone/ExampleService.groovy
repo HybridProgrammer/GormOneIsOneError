@@ -10,9 +10,12 @@ class ExampleService {
         def user = me
 //        def user = User.get(me.id)
 
+        Collection<Long> authorities = user.getAuthorities().id
+        log.info("authorities size: " + authorities.size())
+
         def query = UserData.where {
             (
-                    teams { id in me.getAuthorities().id } && status { isOpen == true }
+                    teams { id in authorities } && status { isOpen == true }
             ) || (
                     owner == user && status { isOpen == true }
             )

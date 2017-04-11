@@ -70,17 +70,19 @@ class ExampleITSpec extends Specification {
         given:
         setupData()
         def me = User.first()
+        Collection<Long> authorities = me.getAuthorities().id
 
         when:
         def query = UserData.where {
             (
-                    teams { id in me.getAuthorities().id } && status { isOpen == true }
+                    teams { id in authorities } && status { isOpen == true }
             ) || (
                     owner == me && status { isOpen == true }
             )
         }
 
         then:
+        authorities.size() > 0
         me.getAuthorities().size() == 1
         query.size() == 2
     }
@@ -89,11 +91,13 @@ class ExampleITSpec extends Specification {
         given:
         setupData()
         def me = User.first()
+        Collection<Long> authorities = me.getAuthorities().id
 
         when:
         def query = exampleService.getMyOrMyTeamsData(me)
 
         then:
+        authorities.size() > 0
         me.getAuthorities().size() == 1
         query.size() == 2
     }
