@@ -1,5 +1,6 @@
 package oneisone
 
+import grails.gorm.DetachedCriteria
 import grails.transaction.Transactional
 
 @Transactional
@@ -9,15 +10,15 @@ class ExampleService {
         // To fix the test Toggle these two lines
         def user = me
 //        def user = User.get(me.id)
+        def authorities =  me.getAuthorities()
 
         def query = UserData.where {
-            (
-                    teams { id in me.getAuthorities().id } && status { isOpen == true }
-            ) || (
-                    owner == user && status { isOpen == true }
-            )
+            teams {
+                id in authorities.id
+            }
         }
 
+        
         return query
 
     }
