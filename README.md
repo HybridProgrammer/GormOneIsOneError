@@ -1,3 +1,11 @@
+# Solution
+See branch solution to see a working fix.
+
+Must change List teams to List teams<Role> in grails-app/domain/oneisone/UserData.groovy
+
+Thank you andi!
+
+
 # How to run
 ./grailsw test-app -integration -Dgrails.env=test
 
