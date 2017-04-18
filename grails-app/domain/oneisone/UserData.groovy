@@ -12,7 +12,7 @@ class UserData {
     }
 
     static hasMany = [teams: Role]
-    List teams = new ArrayList()
+    List<Role> teams = new ArrayList()
 
     Status status
     User owner
